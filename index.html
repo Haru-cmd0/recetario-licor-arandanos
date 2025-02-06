@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -49,6 +49,18 @@
             height: auto;
             border-radius: 10px;
             margin-top: 20px;
+        }
+        .images {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .images img {
+            flex: 1;
+            max-width: calc(33% - 20px);
+            height: auto;
+            border-radius: 10px;
         }
     </style>
 </head>
@@ -110,7 +122,7 @@
                     <li>Soda (agua con gas)</li>
                     <li>Hielo</li>
                 </ul>
-            <p><strong>Como preparar?</strong> 
+            <p><strong>Como preparar?</strong></p>
                 <ol>
                      <li>En un vaso, macera los arándanos y las hojas de menta con el jugo de limón y el jarabe simple.</li>
                      <li>Llena el vaso con hielo.</li>
@@ -118,7 +130,13 @@
                      <li>Completa con soda.</li>
                      <li>Remueve suavemente y decora con hojas de menta y arándanos adicionales.</li>
                 </ol>
-            </p>
+            <img src="DALL·E-2025-02-05-22.06.12.jpg" alt="Imagen de Blueberry Mojito">
+        </div>
+        
+        <div class="images">
+            <img src="DALL·E-2025-02-05-21.32.jpg" alt="Imagen de Blueberry Sour">
+            <img src="DALL·E-2025-02-05-21.33.jpg" alt="Imagen de Arándano Spritz">
+            <img src="DALL·E-2025-02-05-22.06.12.jpg" alt="Imagen de Blueberry Mojito">
         </div>
     </div>
 </body>
